@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Můj CSS Server</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Můj CSS Server</h1>
+    </header>
+    <main>
+        <section id="info">
+            <h2>Informace o serveru</h2>
+            <p><strong>IP adresa:</strong> 192.168.1.1</p>
+            <p><strong>Název serveru:</strong> SuperCSSServer</p>
+        </section>
+        <section id="rules">
+            <h2>Pravidla</h2>
+            <ul>
+                <li>Nehádat se s adminy.</li>
+                <li>Nezneužívat chyby hry.</li>
+                <li>Respektovat ostatní hráče.</li>
+            </ul>
+        </section>
+        <section id="news">
+            <h2>Novinky</h2>
+            <p>Vítejte na mém serveru! Doufám, že si hru užijete.</p>
+        </section>
+        <section id="forum">
+            <h2>Fórum</h2>
+            <form id="forumForm">
+                <label for="message">Vaše zpráva:</label>
+                <textarea id="message" rows="4" required></textarea>
+                <button type="submit">Odeslat</button>
+            </form>
+            <div id="messages">
+                <h3>Příspěvky:</h3>
+                <ul id="messagesList"></ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Můj CSS Server</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

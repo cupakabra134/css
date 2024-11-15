@@ -1,0 +1,15 @@
+#messages ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#messages ul li {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
